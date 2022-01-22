@@ -1,0 +1,280 @@
+{
+    "ContactFlowSummaryList": [
+        {
+            "Id": "0179bac6-241f-461d-b1b0-1d525f8bd6fa",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/0179bac6-241f-461d-b1b0-1d525f8bd6fa",
+            "Name": "00 MainPatient Flow - In (Open)",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "0260ffab-3821-4714-9e5e-03bbb86d2550",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/0260ffab-3821-4714-9e5e-03bbb86d2550",
+            "Name": "ZZZ - Ignore - 08",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "058c4b81-4869-49e1-afdc-7ca835c1a937",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/058c4b81-4869-49e1-afdc-7ca835c1a937",
+            "Name": "02 GM VVIP - In (open+closed)",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "15fb41de-430f-484f-ad17-c4baafdeaf0e",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/15fb41de-430f-484f-ad17-c4baafdeaf0e",
+            "Name": "Sample secure input with no agent",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "219df513-0466-43db-9818-558b60cdfd58",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/219df513-0466-43db-9818-558b60cdfd58",
+            "Name": "Sample queued callback",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "25c8d642-9a8a-43e5-8e71-0d8ecdecd164",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/25c8d642-9a8a-43e5-8e71-0d8ecdecd164",
+            "Name": "01 GoodMeasures Corp - In (closed)",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "3411d117-f794-4d95-8198-792b95affc50",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/3411d117-f794-4d95-8198-792b95affc50",
+            "Name": "Default agent whisper",
+            "ContactFlowType": "AGENT_WHISPER"
+        },
+        {
+            "Id": "3f9ca455-09d9-466e-8d5b-d0af3ce40fe7",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/3f9ca455-09d9-466e-8d5b-d0af3ce40fe7",
+            "Name": "Sample Lambda integration",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "42995dd4-c693-4cc4-a666-f8a89d13fa88",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/42995dd4-c693-4cc4-a666-f8a89d13fa88",
+            "Name": "Holiday Test Flow",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "44673725-44ce-4c6d-938d-1522d3c9a585",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/44673725-44ce-4c6d-938d-1522d3c9a585",
+            "Name": "Sample AB test",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "4daea79b-9a59-47d8-88b9-f99da96397b9",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/4daea79b-9a59-47d8-88b9-f99da96397b9",
+            "Name": "0x Good Measures Queue Flow",
+            "ContactFlowType": "CUSTOMER_QUEUE"
+        },
+        {
+            "Id": "5064b4f2-9652-411e-a338-3bfac5bd33f1",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/5064b4f2-9652-411e-a338-3bfac5bd33f1",
+            "Name": "Default agent transfer",
+            "ContactFlowType": "AGENT_TRANSFER"
+        },
+        {
+            "Id": "52fa1501-b04b-413c-abb0-4ee05bb29947",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/52fa1501-b04b-413c-abb0-4ee05bb29947",
+            "Name": "0x GM Outbound",
+            "ContactFlowType": "OUTBOUND_WHISPER"
+        },
+        {
+            "Id": "58861e87-c727-4df5-b333-c894a8cb48fd",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/58861e87-c727-4df5-b333-c894a8cb48fd",
+            "Name": "0x AHEAD Voicemail Flow",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "614f3386-1c9c-4e7a-aa6e-eb747366824a",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/614f3386-1c9c-4e7a-aa6e-eb747366824a",
+            "Name": "Sample secure input with agent",
+            "ContactFlowType": "QUEUE_TRANSFER"
+        },
+        {
+            "Id": "67a7041e-6576-432d-a303-c3e570fa4e96",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/67a7041e-6576-432d-a303-c3e570fa4e96",
+            "Name": "Default customer queue",
+            "ContactFlowType": "CUSTOMER_QUEUE"
+        },
+        {
+            "Id": "68920181-fa8e-4685-9aa5-4c4b811036e2",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/68920181-fa8e-4685-9aa5-4c4b811036e2",
+            "Name": "!00 Routing Flow",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "6b9ceb1b-fac9-4723-8910-23fb2f0816a6",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/6b9ceb1b-fac9-4723-8910-23fb2f0816a6",
+            "Name": "01 GoodMeasures Corp - In (open)",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "7313ba90-543c-4671-a0da-d539a05ee31c",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/7313ba90-543c-4671-a0da-d539a05ee31c",
+            "Name": "Sample customer queue priority",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "741ef393-5186-443e-be08-f5af7f48b2e2",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/741ef393-5186-443e-be08-f5af7f48b2e2",
+            "Name": "00 MainPatient Flow - In (Closed)",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "75728221-4b84-4f28-ba60-89d7e94e647b",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/75728221-4b84-4f28-ba60-89d7e94e647b",
+            "Name": "ZZ-NOT Used",
+            "ContactFlowType": "CUSTOMER_QUEUE"
+        },
+        {
+            "Id": "7783c025-fc61-4753-9274-3bac4992078f",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/7783c025-fc61-4753-9274-3bac4992078f",
+            "Name": "ZZZ - Ignore - 04",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "87ac99e3-8d1b-420a-a4fa-71c2361e5fe9",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/87ac99e3-8d1b-420a-a4fa-71c2361e5fe9",
+            "Name": "Default queue transfer",
+            "ContactFlowType": "QUEUE_TRANSFER"
+        },
+        {
+            "Id": "88daff6b-4c87-4227-8ec2-c0774067a68d",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/88daff6b-4c87-4227-8ec2-c0774067a68d",
+            "Name": "ZZZ - Ignore 11",
+            "ContactFlowType": "QUEUE_TRANSFER"
+        },
+        {
+            "Id": "97168dc1-5b37-4c9f-a4d2-520f703b56bb",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/97168dc1-5b37-4c9f-a4d2-520f703b56bb",
+            "Name": "0x Whisper Flow",
+            "ContactFlowType": "AGENT_WHISPER"
+        },
+        {
+            "Id": "985beca3-564b-4937-af7a-8197bd6af077",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/985beca3-564b-4937-af7a-8197bd6af077",
+            "Name": "ZZZ - Ignore - 07",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "9b5488de-4c5d-4f55-aad1-de54bab70e2b",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/9b5488de-4c5d-4f55-aad1-de54bab70e2b",
+            "Name": "ZZZ - Ignore - 05",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "9d1e7eee-a042-4c8a-abfd-6349d64e4eef",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/9d1e7eee-a042-4c8a-abfd-6349d64e4eef",
+            "Name": "ZZZ - Ignore - 02",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "a2d51a40-76d4-4c91-baa6-cf5484818c42",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/a2d51a40-76d4-4c91-baa6-cf5484818c42",
+            "Name": "Default customer whisper",
+            "ContactFlowType": "CUSTOMER_WHISPER"
+        },
+        {
+            "Id": "aae0c246-0904-4bd9-b6e3-9a87ede346de",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/aae0c246-0904-4bd9-b6e3-9a87ede346de",
+            "Name": "Holiday Routing Test",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "abd72eae-ed25-41cc-95c9-16fd4ee82365",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/abd72eae-ed25-41cc-95c9-16fd4ee82365",
+            "Name": "Sample note for screenpop",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "b13af6d5-ab7c-4b57-8de5-01b670cef3cd",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/b13af6d5-ab7c-4b57-8de5-01b670cef3cd",
+            "Name": "Sample queue customer",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "b62042ec-9868-4dc2-957b-4a11966c38bc",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/b62042ec-9868-4dc2-957b-4a11966c38bc",
+            "Name": "Sample recording behavior",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "b7f9ee8c-7562-44be-8efa-d9dbe3ec568b",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/b7f9ee8c-7562-44be-8efa-d9dbe3ec568b",
+            "Name": "Default customer hold",
+            "ContactFlowType": "CUSTOMER_HOLD"
+        },
+        {
+            "Id": "c16977ae-d69a-45b3-bc10-58da83f26496",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/c16977ae-d69a-45b3-bc10-58da83f26496",
+            "Name": "Default agent hold",
+            "ContactFlowType": "AGENT_HOLD"
+        },
+        {
+            "Id": "c29b4179-cbb2-4d69-8bd5-cf62db4476cb",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/c29b4179-cbb2-4d69-8bd5-cf62db4476cb",
+            "Name": "ZZZ - Ignore - 03",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "c389bd55-db17-4078-af82-5c4a40085325",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/c389bd55-db17-4078-af82-5c4a40085325",
+            "Name": "0x Receptionist Queue Flow",
+            "ContactFlowType": "CUSTOMER_QUEUE"
+        },
+        {
+            "Id": "c5609dad-17f6-4924-b864-2041f4bf1840",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/c5609dad-17f6-4924-b864-2041f4bf1840",
+            "Name": "ZZZ - Ignore - 06",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "ccaa74b8-af4b-4e5d-a5a5-82fb37959bbc",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/ccaa74b8-af4b-4e5d-a5a5-82fb37959bbc",
+            "Name": "0x Dial Extension",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "dcdd9ae8-8914-4728-85f0-9711b212776a",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/dcdd9ae8-8914-4728-85f0-9711b212776a",
+            "Name": "0x Voicemail Flow",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "de83aec3-6c29-4171-ad02-46fe0272dfee",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/de83aec3-6c29-4171-ad02-46fe0272dfee",
+            "Name": "Sample interruptible queue flow with callback",
+            "ContactFlowType": "CUSTOMER_QUEUE"
+        },
+        {
+            "Id": "df449a80-4f73-46bb-87b5-fc899badddb7",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/df449a80-4f73-46bb-87b5-fc899badddb7",
+            "Name": "Default outbound",
+            "ContactFlowType": "OUTBOUND_WHISPER"
+        },
+        {
+            "Id": "f2cf2e29-8fdb-41af-a4ae-78df34259752",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/f2cf2e29-8fdb-41af-a4ae-78df34259752",
+            "Name": "ZZZ - Ignore - 10",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "f3db9780-9080-4f92-a10c-456251432a11",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/f3db9780-9080-4f92-a10c-456251432a11",
+            "Name": "ZZZ - Ignore 1",
+            "ContactFlowType": "CUSTOMER_QUEUE"
+        },
+        {
+            "Id": "f60d91d4-2d13-42e6-8c69-8e97454ec530",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/f60d91d4-2d13-42e6-8c69-8e97454ec530",
+            "Name": "Sample inbound flow (first call experience)",
+            "ContactFlowType": "CONTACT_FLOW"
+        },
+        {
+            "Id": "fc7e607a-a89f-45b9-8346-0d9a497d03b1",
+            "Arn": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/fc7e607a-a89f-45b9-8346-0d9a497d03b1",
+            "Name": "0x Inbound to Agent",
+            "ContactFlowType": "CONTACT_FLOW"
+        }
+    ]
+}

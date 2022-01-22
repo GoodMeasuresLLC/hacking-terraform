@@ -1,0 +1,696 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "1c26532f-277a-4367-9d31-fb738d65bb5f",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 15,
+      "y": 15
+    },
+    "snapToGrid": false,
+    "ActionMetadata": {
+      "1c26532f-277a-4367-9d31-fb738d65bb5f": {
+        "position": {
+          "x": 177,
+          "y": 118
+        }
+      },
+      "dae40fd8-7dba-4aeb-8e35-11ac83b7985c": {
+        "position": {
+          "x": 173,
+          "y": 295
+        }
+      },
+      "fbf8e40b-ae7d-4c7c-be57-530d8a3a4d59": {
+        "position": {
+          "x": 2107,
+          "y": 313
+        }
+      },
+      "cf1fd721-6ac3-48a7-999c-84cc34065453": {
+        "position": {
+          "x": 1594,
+          "y": 773
+        }
+      },
+      "37452ef0-0d70-483f-ad81-be82ac39b429": {
+        "position": {
+          "x": 838,
+          "y": 421
+        },
+        "dynamicParams": []
+      },
+      "691146be-6eac-4f40-acae-a1caf541406f": {
+        "position": {
+          "x": 807,
+          "y": 885
+        },
+        "useDynamic": false
+      },
+      "cfb70c35-efa3-491c-8484-c351348a3ff7": {
+        "position": {
+          "x": 1110,
+          "y": 915
+        }
+      },
+      "7e3692ab-4c35-472a-b10b-eebf55571c03": {
+        "position": {
+          "x": 1118,
+          "y": 641
+        },
+        "useDynamic": false
+      },
+      "45ad8d5f-65f2-4aff-8312-08bbf40cf6a9": {
+        "position": {
+          "x": 172,
+          "y": 494
+        },
+        "overrideConsoleVoice": false,
+        "defaultVoice": "Standard"
+      },
+      "bc5a51a9-6893-4c15-a184-32ecb477cd93": {
+        "position": {
+          "x": 169,
+          "y": 700
+        },
+        "contactFlow": {
+          "id": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/97168dc1-5b37-4c9f-a4d2-520f703b56bb",
+          "text": "0x Whisper Flow"
+        },
+        "customerOrAgent": false,
+        "useDynamic": false
+      },
+      "bc0b121f-4048-40d5-a2de-c46af12a2220": {
+        "position": {
+          "x": 163,
+          "y": 878
+        },
+        "contactFlow": {
+          "id": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/4daea79b-9a59-47d8-88b9-f99da96397b9",
+          "text": "0x Good Measures Queue Flow"
+        },
+        "customerOrAgent": true,
+        "useDynamic": false
+      },
+      "19d3c03d-5476-444a-8cc6-f111e469aab9": {
+        "position": {
+          "x": 774,
+          "y": 631
+        },
+        "dynamicParams": []
+      },
+      "bf40c5a3-95a7-468a-b9df-9fda43ad0cc9": {
+        "position": {
+          "x": 483,
+          "y": 398
+        },
+        "dynamicMetadata": {},
+        "useDynamic": false
+      },
+      "f82d34b0-a78f-428c-b7a4-905ce5dff507": {
+        "position": {
+          "x": 485,
+          "y": 169
+        },
+        "dynamicParams": [
+          "AssignedFlow",
+          "QueueName",
+          "QueueARN"
+        ]
+      },
+      "7b947b01-5614-4f77-9735-7f8d680eda4c": {
+        "position": {
+          "x": 1644,
+          "y": 263
+        },
+        "useDynamic": false,
+        "ContactFlow": {
+          "id": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/6b9ceb1b-fac9-4723-8910-23fb2f0816a6",
+          "text": "01 GoodMeasures Corp - In (open)"
+        }
+      },
+      "5b2e1a97-1757-403e-aa6e-b0da69743c6d": {
+        "position": {
+          "x": 1605,
+          "y": 40
+        },
+        "useDynamic": false,
+        "ContactFlow": {
+          "id": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/0179bac6-241f-461d-b1b0-1d525f8bd6fa",
+          "text": "00 - MainPatient Flow (Open)"
+        }
+      },
+      "7b54f780-04be-4373-80d2-bca553eedfe5": {
+        "position": {
+          "x": 1605,
+          "y": 599
+        },
+        "useDynamic": false
+      },
+      "78d52152-5f26-4d39-b6ab-d986907c3355": {
+        "position": {
+          "x": 1096,
+          "y": 380
+        },
+        "useDynamic": false,
+        "queue": {
+          "id": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/queue/9d1b092e-90d9-47ba-b607-4cc7fd6c503a",
+          "text": "Z - Default (Error) Queue"
+        }
+      },
+      "83c9c85a-e11e-4afc-bc9c-c623a16f250d": {
+        "position": {
+          "x": 837,
+          "y": 185
+        },
+        "useDynamic": true,
+        "queue": "QueueARN"
+      },
+      "cd026d06-e972-4801-b243-9490344e3e49": {
+        "position": {
+          "x": 1643,
+          "y": 421
+        },
+        "useDynamic": false,
+        "ContactFlow": {
+          "id": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/058c4b81-4869-49e1-afdc-7ca835c1a937",
+          "text": "08 GM VVIP - In (open)"
+        }
+      },
+      "7349db0d-508c-46dc-bf6e-6449d43c9161": {
+        "position": {
+          "x": 1866,
+          "y": 312
+        },
+        "useDynamic": false
+      },
+      "489b0d8e-c514-45ad-b97c-818e008e3524": {
+        "position": {
+          "x": 1324,
+          "y": 123
+        },
+        "conditionMetadata": [
+          {
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "GM-Corp",
+            "id": "3455abb5-d789-4d62-bab7-d20f24d49159"
+          },
+          {
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "GM-Main",
+            "id": "ca6ce0d0-0044-4dcf-b390-ea080fcd68ba"
+          },
+          {
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "GM-Onduo",
+            "id": "a2489075-24aa-4ad7-a040-64090c95658f"
+          },
+          {
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "GM-Glytec",
+            "id": "63cefdce-276d-430f-804d-2ee4ca45fc7a"
+          },
+          {
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "GM-VVIP",
+            "id": "5737e533-e03d-4eca-91c3-ca46d3047d10"
+          },
+          {
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "GM-BioTel",
+            "id": "952f7dad-24b6-4bd8-99bb-c94d625365b8"
+          },
+          {
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "GM-ADA-CTD",
+            "id": "f274fd3e-6c46-4878-af46-442b4db9ce0c"
+          },
+          {
+            "id": "81478dff-4939-4453-beb8-7b0f4ed737a7",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "GM-AHEAD"
+          }
+        ]
+      },
+      "0a80a976-0a38-48fd-85c7-27a3da6056a1": {
+        "position": {
+          "x": 1574,
+          "y": 978
+        },
+        "useDynamic": false,
+        "ContactFlow": {
+          "id": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/58861e87-c727-4df5-b333-c894a8cb48fd",
+          "text": "0x AHEAD Voicemail Flow"
+        }
+      }
+    }
+  },
+  "Actions": [
+    {
+      "Identifier": "1c26532f-277a-4367-9d31-fb738d65bb5f",
+      "Parameters": {
+        "FlowLoggingBehavior": "Enabled"
+      },
+      "Transitions": {
+        "NextAction": "dae40fd8-7dba-4aeb-8e35-11ac83b7985c",
+        "Errors": [],
+        "Conditions": []
+      },
+      "Type": "UpdateFlowLoggingBehavior"
+    },
+    {
+      "Identifier": "dae40fd8-7dba-4aeb-8e35-11ac83b7985c",
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [
+            "Agent",
+            "Customer"
+          ]
+        }
+      },
+      "Transitions": {
+        "NextAction": "45ad8d5f-65f2-4aff-8312-08bbf40cf6a9",
+        "Errors": [],
+        "Conditions": []
+      },
+      "Type": "UpdateContactRecordingBehavior"
+    },
+    {
+      "Identifier": "fbf8e40b-ae7d-4c7c-be57-530d8a3a4d59",
+      "Type": "DisconnectParticipant",
+      "Parameters": {},
+      "Transitions": {}
+    },
+    {
+      "Identifier": "cf1fd721-6ac3-48a7-999c-84cc34065453",
+      "Type": "DisconnectParticipant",
+      "Parameters": {},
+      "Transitions": {}
+    },
+    {
+      "Identifier": "37452ef0-0d70-483f-ad81-be82ac39b429",
+      "Parameters": {
+        "Attributes": {
+          "QueueName": "Error Queue"
+        }
+      },
+      "Transitions": {
+        "NextAction": "78d52152-5f26-4d39-b6ab-d986907c3355",
+        "Errors": [
+          {
+            "NextAction": "691146be-6eac-4f40-acae-a1caf541406f",
+            "ErrorType": "NoMatchingError"
+          }
+        ],
+        "Conditions": []
+      },
+      "Type": "UpdateContactAttributes"
+    },
+    {
+      "Identifier": "691146be-6eac-4f40-acae-a1caf541406f",
+      "Parameters": {
+        "Text": "Sorry, you have encountered an internal system error. Please try again, Thank you. Error code: 242"
+      },
+      "Transitions": {
+        "NextAction": "cfb70c35-efa3-491c-8484-c351348a3ff7",
+        "Errors": [],
+        "Conditions": []
+      },
+      "Type": "MessageParticipant"
+    },
+    {
+      "Identifier": "cfb70c35-efa3-491c-8484-c351348a3ff7",
+      "Type": "DisconnectParticipant",
+      "Parameters": {},
+      "Transitions": {}
+    },
+    {
+      "Identifier": "7e3692ab-4c35-472a-b10b-eebf55571c03",
+      "Parameters": {
+        "Text": "Sorry, you have encountered an internal system error. Please try again, Thank you. Error code: 441"
+      },
+      "Transitions": {
+        "NextAction": "cfb70c35-efa3-491c-8484-c351348a3ff7",
+        "Errors": [],
+        "Conditions": []
+      },
+      "Type": "MessageParticipant"
+    },
+    {
+      "Identifier": "45ad8d5f-65f2-4aff-8312-08bbf40cf6a9",
+      "Parameters": {
+        "TextToSpeechVoice": "Joanna"
+      },
+      "Transitions": {
+        "NextAction": "bc5a51a9-6893-4c15-a184-32ecb477cd93",
+        "Errors": [],
+        "Conditions": []
+      },
+      "Type": "UpdateContactTextToSpeechVoice"
+    },
+    {
+      "Identifier": "bc5a51a9-6893-4c15-a184-32ecb477cd93",
+      "Parameters": {
+        "EventHooks": {
+          "AgentWhisper": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/97168dc1-5b37-4c9f-a4d2-520f703b56bb"
+        }
+      },
+      "Transitions": {
+        "NextAction": "bc0b121f-4048-40d5-a2de-c46af12a2220",
+        "Errors": [
+          {
+            "NextAction": "bc0b121f-4048-40d5-a2de-c46af12a2220",
+            "ErrorType": "NoMatchingError"
+          }
+        ],
+        "Conditions": []
+      },
+      "Type": "UpdateContactEventHooks"
+    },
+    {
+      "Identifier": "bc0b121f-4048-40d5-a2de-c46af12a2220",
+      "Parameters": {
+        "EventHooks": {
+          "CustomerQueue": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/4daea79b-9a59-47d8-88b9-f99da96397b9"
+        }
+      },
+      "Transitions": {
+        "NextAction": "bf40c5a3-95a7-468a-b9df-9fda43ad0cc9",
+        "Errors": [
+          {
+            "NextAction": "bf40c5a3-95a7-468a-b9df-9fda43ad0cc9",
+            "ErrorType": "NoMatchingError"
+          }
+        ],
+        "Conditions": []
+      },
+      "Type": "UpdateContactEventHooks"
+    },
+    {
+      "Identifier": "19d3c03d-5476-444a-8cc6-f111e469aab9",
+      "Parameters": {
+        "Attributes": {
+          "AssignedFlow": "GM-Main",
+          "QueueName": "Error Queue"
+        }
+      },
+      "Transitions": {
+        "NextAction": "78d52152-5f26-4d39-b6ab-d986907c3355",
+        "Errors": [
+          {
+            "NextAction": "691146be-6eac-4f40-acae-a1caf541406f",
+            "ErrorType": "NoMatchingError"
+          }
+        ],
+        "Conditions": []
+      },
+      "Type": "UpdateContactAttributes"
+    },
+    {
+      "Identifier": "bf40c5a3-95a7-468a-b9df-9fda43ad0cc9",
+      "Parameters": {
+        "LambdaFunctionARN": "arn:aws:lambda:us-east-1:201706955376:function:GoodMeasures_Connect_GetNumberInfoFunction",
+        "InvocationTimeLimitSeconds": "8"
+      },
+      "Transitions": {
+        "NextAction": "f82d34b0-a78f-428c-b7a4-905ce5dff507",
+        "Errors": [
+          {
+            "NextAction": "19d3c03d-5476-444a-8cc6-f111e469aab9",
+            "ErrorType": "NoMatchingError"
+          }
+        ],
+        "Conditions": []
+      },
+      "Type": "InvokeLambdaFunction"
+    },
+    {
+      "Identifier": "f82d34b0-a78f-428c-b7a4-905ce5dff507",
+      "Parameters": {
+        "Attributes": {
+          "AssignedFlow": "$.External.AssignedFlow",
+          "QueueName": "$.External.QueueName",
+          "QueueARN": "$.External.QueueARN"
+        }
+      },
+      "Transitions": {
+        "NextAction": "83c9c85a-e11e-4afc-bc9c-c623a16f250d",
+        "Errors": [
+          {
+            "NextAction": "19d3c03d-5476-444a-8cc6-f111e469aab9",
+            "ErrorType": "NoMatchingError"
+          }
+        ],
+        "Conditions": []
+      },
+      "Type": "UpdateContactAttributes"
+    },
+    {
+      "Identifier": "7b947b01-5614-4f77-9735-7f8d680eda4c",
+      "Parameters": {
+        "ContactFlowId": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/6b9ceb1b-fac9-4723-8910-23fb2f0816a6"
+      },
+      "Transitions": {
+        "NextAction": "7349db0d-508c-46dc-bf6e-6449d43c9161",
+        "Errors": [
+          {
+            "NextAction": "7349db0d-508c-46dc-bf6e-6449d43c9161",
+            "ErrorType": "NoMatchingError"
+          }
+        ],
+        "Conditions": []
+      },
+      "Type": "TransferToFlow"
+    },
+    {
+      "Identifier": "5b2e1a97-1757-403e-aa6e-b0da69743c6d",
+      "Parameters": {
+        "ContactFlowId": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/0179bac6-241f-461d-b1b0-1d525f8bd6fa"
+      },
+      "Transitions": {
+        "NextAction": "7349db0d-508c-46dc-bf6e-6449d43c9161",
+        "Errors": [
+          {
+            "NextAction": "7349db0d-508c-46dc-bf6e-6449d43c9161",
+            "ErrorType": "NoMatchingError"
+          }
+        ],
+        "Conditions": []
+      },
+      "Type": "TransferToFlow"
+    },
+    {
+      "Identifier": "7b54f780-04be-4373-80d2-bca553eedfe5",
+      "Parameters": {
+        "Text": "Sorry, you have encountered an internal system error. Please try again, Thank you. Error code: 242"
+      },
+      "Transitions": {
+        "NextAction": "cf1fd721-6ac3-48a7-999c-84cc34065453",
+        "Errors": [],
+        "Conditions": []
+      },
+      "Type": "MessageParticipant"
+    },
+    {
+      "Identifier": "78d52152-5f26-4d39-b6ab-d986907c3355",
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/queue/9d1b092e-90d9-47ba-b607-4cc7fd6c503a"
+      },
+      "Transitions": {
+        "NextAction": "489b0d8e-c514-45ad-b97c-818e008e3524",
+        "Errors": [
+          {
+            "NextAction": "7e3692ab-4c35-472a-b10b-eebf55571c03",
+            "ErrorType": "NoMatchingError"
+          }
+        ],
+        "Conditions": []
+      },
+      "Type": "UpdateContactTargetQueue"
+    },
+    {
+      "Identifier": "83c9c85a-e11e-4afc-bc9c-c623a16f250d",
+      "Parameters": {
+        "QueueId": "$.Attributes.QueueARN"
+      },
+      "Transitions": {
+        "NextAction": "489b0d8e-c514-45ad-b97c-818e008e3524",
+        "Errors": [
+          {
+            "NextAction": "37452ef0-0d70-483f-ad81-be82ac39b429",
+            "ErrorType": "NoMatchingError"
+          }
+        ],
+        "Conditions": []
+      },
+      "Type": "UpdateContactTargetQueue"
+    },
+    {
+      "Identifier": "cd026d06-e972-4801-b243-9490344e3e49",
+      "Parameters": {
+        "ContactFlowId": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/058c4b81-4869-49e1-afdc-7ca835c1a937"
+      },
+      "Transitions": {
+        "NextAction": "7349db0d-508c-46dc-bf6e-6449d43c9161",
+        "Errors": [
+          {
+            "NextAction": "7349db0d-508c-46dc-bf6e-6449d43c9161",
+            "ErrorType": "NoMatchingError"
+          }
+        ],
+        "Conditions": []
+      },
+      "Type": "TransferToFlow"
+    },
+    {
+      "Identifier": "7349db0d-508c-46dc-bf6e-6449d43c9161",
+      "Parameters": {
+        "Text": "Sorry, you have encountered an internal system error. Please try again, Thank you. Error code: 242"
+      },
+      "Transitions": {
+        "NextAction": "fbf8e40b-ae7d-4c7c-be57-530d8a3a4d59",
+        "Errors": [],
+        "Conditions": []
+      },
+      "Type": "MessageParticipant"
+    },
+    {
+      "Identifier": "489b0d8e-c514-45ad-b97c-818e008e3524",
+      "Parameters": {
+        "ComparisonValue": "$.External.AssignedFlow"
+      },
+      "Transitions": {
+        "NextAction": "7b54f780-04be-4373-80d2-bca553eedfe5",
+        "Errors": [
+          {
+            "NextAction": "7b54f780-04be-4373-80d2-bca553eedfe5",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ],
+        "Conditions": [
+          {
+            "NextAction": "7b947b01-5614-4f77-9735-7f8d680eda4c",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "GM-Corp"
+              ]
+            }
+          },
+          {
+            "NextAction": "5b2e1a97-1757-403e-aa6e-b0da69743c6d",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "GM-Main"
+              ]
+            }
+          },
+          {
+            "NextAction": "5b2e1a97-1757-403e-aa6e-b0da69743c6d",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "GM-Onduo"
+              ]
+            }
+          },
+          {
+            "NextAction": "5b2e1a97-1757-403e-aa6e-b0da69743c6d",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "GM-Glytec"
+              ]
+            }
+          },
+          {
+            "NextAction": "cd026d06-e972-4801-b243-9490344e3e49",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "GM-VVIP"
+              ]
+            }
+          },
+          {
+            "NextAction": "5b2e1a97-1757-403e-aa6e-b0da69743c6d",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "GM-BioTel"
+              ]
+            }
+          },
+          {
+            "NextAction": "5b2e1a97-1757-403e-aa6e-b0da69743c6d",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "GM-ADA-CTD"
+              ]
+            }
+          },
+          {
+            "NextAction": "0a80a976-0a38-48fd-85c7-27a3da6056a1",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "GM-AHEAD"
+              ]
+            }
+          }
+        ]
+      },
+      "Type": "Compare"
+    },
+    {
+      "Identifier": "0a80a976-0a38-48fd-85c7-27a3da6056a1",
+      "Parameters": {
+        "ContactFlowId": "arn:aws:connect:us-east-1:201706955376:instance/03103f71-db62-4f61-9432-4bfae356b3e3/contact-flow/58861e87-c727-4df5-b333-c894a8cb48fd"
+      },
+      "Transitions": {
+        "NextAction": "7349db0d-508c-46dc-bf6e-6449d43c9161",
+        "Errors": [
+          {
+            "NextAction": "7349db0d-508c-46dc-bf6e-6449d43c9161",
+            "ErrorType": "NoMatchingError"
+          }
+        ],
+        "Conditions": []
+      },
+      "Type": "TransferToFlow"
+    }
+  ]
+}
